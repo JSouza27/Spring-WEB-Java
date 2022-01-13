@@ -1,9 +1,8 @@
 # Spring WEB
 
-## Desafio
-Neste desafio você receberá um projeto Maven pré-configurado com Springboot, Spring-JPA, Spring-WEB e banco de dados H2. Este projeto também contém as classes de entidade `entity`, repositórios `repository` e de serviço `service`. Você deverá escrever as classes `controller` deste projeto respeitando as regras abaixo:
+Neste desafio foi criado um projeto Maven pré-configurado com Springboot, Spring-JPA, Spring-WEB e banco de dados H2.
 
-1. Você deverá criar os seguintes endpoints:
+1. Você irá encontrar os seguintes endpoints:
 	- /user
 	- /candidate
 	- /submission
@@ -11,8 +10,26 @@ Neste desafio você receberá um projeto Maven pré-configurado com Springboot, 
 	- /company
 	- /challenge
 
-2. Você deve expor todos os métodos existentes nas classes de serviço `service`.
-3. Caso a entidade utilizada possua um DTO, utilize.
+A estrutura do projeto contem pasta **Model**, **Service**, **DTO**, **Repository** e **Controller**
+
+
+## Instalação
+
+Para instalar é só clonar o repositório usando o comando abaixo
+no terminal dentro do diretório que deseja.
+
+```bash
+  git clone git@github.com:JSouza27/Spring-WEB-Java.git
+```
+
+Após clonar é só abrir o projeto na sua IDE favorita.
 
 ## Observações
 - Baixe o plugin do [Lombok](https://projectlombok.org/setup/intellij) e [Mapstruct](https://mapstruct.org/documentation/ide-support/) na sua IDE
+
+## Linguagem utilizada
+
+- Java 8
+- Spring Boot
+- Srinpg JPA
+- Banco de Dados H2
